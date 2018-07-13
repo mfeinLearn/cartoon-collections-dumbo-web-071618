@@ -27,3 +27,4 @@ def find_the_cheese(foods)
   foods.find { |food| cheeses.include?(food) }
 end
 
+# .find method - Passes each entry in enum to block. Returns the first for which block is not false. If no object matches, calls ifnone and returns its result when it is specified, or returns nil otherwise.
